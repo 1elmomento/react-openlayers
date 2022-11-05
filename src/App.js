@@ -68,7 +68,6 @@ function App() {
       <h1>Simple Openlayers example</h1>
       <h2>Centerd on a certain coordinates with Marker</h2>
       <div className="map-container" ref={mapElement} />
-      <div id="popup"></div>
     </div>
   );
 }
