@@ -25,7 +25,7 @@ function App() {
       geometry: new Point(fromLonLat([2.334957, 48.85893])),
     });
 
-    // Styling point (A circle with red circle with radius of 7 and black stroke of 1 pixel)
+    // Styling point (A red circle with radius of 7 pixels and black stroke of 1 pixel)
     const pointStyle = new Style({
       image: new Circle({
         radius: 7,
